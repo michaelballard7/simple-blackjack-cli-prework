@@ -1,5 +1,5 @@
-def welcome(greet)
-  puts greet
+def welcome
+  puts 
 end
 
 def deal_card
