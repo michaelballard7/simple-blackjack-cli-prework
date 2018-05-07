@@ -36,7 +36,7 @@ def hit?(number)
   prompt_user
   input = get_user_input
   if input == 's'
-    initial_round
+    display_card_total
   elsif input == 'h'
     current_total = initial_round
     new_card = deal_card
