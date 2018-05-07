@@ -38,7 +38,9 @@ def hit?(number)
   if input == 's'
     number
   elsif input == 'h'
-    
+    current_total = initial_round
+    new_card = deal_card
+    new_total = current_total + new_card
   end
 end
 
