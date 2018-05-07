@@ -39,7 +39,6 @@ def hit?(number)
     
   elsif get_user_input == 'h'
     deal_card
-  # code hit? here
 end
 
 def invalid_command
