@@ -37,7 +37,10 @@ def hit?(number)
   input = get_user_input
   if input == 's'
   elsif input == 'h'
-    deal_card
+    current_total = initial_round
+    new_card = deal_card
+    new_total = current_total + new_card
+    new_total
   end
 end
 
